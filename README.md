@@ -75,13 +75,6 @@
 - The plugin will not be liable for any loss or misconfiguration.
 - This is an **unofficial** plugin for Bunny fans. For account and billing queries, please do not contact Bunny.net support.
 
-## Official Support Channels
-- Create a topic at the [WordPress Support Forum](https://wordpress.org/support/plugin/edge-caching-firewall-bunnycdn/)
-- Ask at [GulshanForum](https://help.gulshankumar.net)
-- Tweet [@TheGulshanKumar](https://twitter.com/TheGulshanKumar) 
-
-Share with your friends! Thank you. 🙂 
-
 ## Installation
 
 ### From WordPress Dashboard
@@ -113,6 +106,8 @@ An actual CNAME can be much faster and more accurate in routing compared to ANAM
 2. Point back to the original Hosting IP in your DNS.
 3. Log in to your Bunny.net account and delete the created pull zone. Close your account.
 4. Deactivation/re-activation will drop saved info, except for the static 'Origin Access Token' hash for graceful re-installation. Optionally, you may run `delete_option( 'edge_caching_and_firewall_with_bunnycdn_origin_access_token' );` to fully clean.
+
+Share with your friends! Thank you. 🙂 
 
 ## Changelog
 
