@@ -1,147 +1,140 @@
-=== Edge Caching and Firewall with BunnyCDN - Faster TTFB, DDoS protection with Reverse-Proxy ===
-Contributors: thegulshankumar
-Donate link: https://www.buymeacoffee.com/gulshan
-Tags: performance, pagespeed, optimization, security, caching, ddos, cache, reverse-proxy
-Requires at least: 4.5
-Requires PHP: 7.2
-Tested up to: 5.7
-Stable tag: 1.0.2
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.txt
+# Edge Caching and Firewall with BunnyCDN
 
-Make your site globally faster and secure like never before.
+**Contributors**: thegulshankumar  
+**Donate link**: [Buy Me A Coffee](https://www.buymeacoffee.com/gulshan)  
+**Tags**: performance, pagespeed, optimization, security, caching, ddos, cache, reverse-proxy  
+**Requires at least**: 4.5  
+**Requires PHP**: 7.2  
+**Tested up to**: 5.7  
+**Stable tag**: 1.0.2  
+**License**: GPLv3  
+**License URI**: [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.txt)
 
-== Description ==
+---
 
-Reverse-Proxy Edge Caching & DDoS protection in 90 seconds setup 😎
+### Make your site globally faster and secure like never before.
 
-> The use of bunny.net API key is subject to its applicable 'Pricing', 'Terms' and 'Acceptable Usage Policy'.
+## Description
 
-= 🎁 Your Benefits  =
-* Get TTFB ~35ms globally with Reverse-Proxy Edge caching.
-* Hide the Origin IP to prevent DDoS attack.
-* Prevent bypassing bunny Proxy with Origin Access Token
-* Automatically bypass the HTML cache for logged in users.
-* Fix latency issues for anonymous visitors far from your server.
-* Edge Caching at BunnyCDN Edge with auto purge made easier! 
-* Not just Static files, cache everything at one hostname.
-* Cache Post, Pages, RSS Feed with automatic purge by URL.
+**Reverse-Proxy Edge Caching & DDoS protection in 90 seconds setup.** 😎
 
-== 🥉 Salient Features ==
-* Get your beloved admin toolbar while logged in. (Never in logged out as expected)
-* Automated purge for best possible Cache HIT ratio in the Industry
-* Purge relevant URLs for Post status change, new comment
-* Automatically purge all cache for site-level changes
-* Always edge and browser caching for static files even if logged in.
-* Automatically bypass the HTML cache for dynamic request
-* Automatically Ignores tracking-system query strings for better Cache-HIT ratio.
-* Allow you to purge cache for a page or whole site via admin toolbar
-* GDPR compliant
+> The use of Bunny.net API key is subject to its applicable 'Pricing', 'Terms', and 'Acceptable Usage Policy'.
 
-== Intelligent cookies-session handling 👏 ==
+### 🎁 Your Benefits
+- Achieve TTFB ~35ms globally with Reverse-Proxy Edge caching.
+- Hide the Origin IP to prevent DDoS attacks.
+- Prevent bypassing Bunny Proxy with Origin Access Token.
+- Automatically bypass HTML cache for logged-in users.
+- Fix latency issues for anonymous visitors far from your server.
+- Easy edge caching at BunnyCDN Edge with auto-purge.
+- Cache all content at one hostname, including posts, pages, and RSS feeds with automatic URL purging.
 
-> Crafted carefully 😎
+## 🥉 Salient Features
+- Retain the admin toolbar while logged in (hidden for logged-out users).
+- Automated purging for optimal Cache HIT ratio.
+- Purge relevant URLs on post status changes and new comments.
+- Cache purging for all site-level changes.
+- Ensure edge and browser caching for static files, even when logged in.
+- Automatically bypass HTML cache for dynamic requests.
+- Ignore tracking-system query strings for better Cache HIT ratios.
+- Purge cache for a single page or the entire site via the admin toolbar.
+- GDPR compliant.
 
-* Displays comment moderation status to the comment author.
-* Bypasses caching for 'Remember Me' checked the login
-* In other event, can serve cached response instantly after 'log out'.
-* Bypasses caching for cart of 'Easy Digital Downloads' & 'WooCommerce'
+## Intelligent Cookies-Session Handling 👏
+> Crafted with care. 😎
+- Displays comment moderation status to the comment author.
+- Bypasses caching for logged-in users with 'Remember Me' checked.
+- Serves cached response instantly after logout.
+- Bypasses caching for 'Easy Digital Downloads' & 'WooCommerce' carts.
 
-== Want to serve nex-gen Image? It's compatible! ✌️ ==
-* Free: Vary Cache, to extend support for [WebP Express](https://www.gulshankumar.net/how-to-serve-webp-format-images-in-wordpress/#nginx), ShortPixel
-* Paid: Optimizer ($9.5/mo), for automated CSS/JS minify, WebP.
+## Want to Serve Next-Gen Images? It's Compatible! ✌️
+- **Free**: Vary Cache, to extend support for [WebP Express](https://www.gulshankumar.net/how-to-serve-webp-format-images-in-wordpress/#nginx), ShortPixel.
+- **Paid**: Optimizer ($9.5/mo), for automated CSS/JS minification and WebP.
 
-== 💕 Compatibility 💕 ==
-* AMP (official plugin only)
-* Autoptimize, if AO clear cache we will do purge everything automatically.
-* bunny.net, the official plugin is still helpful for static files with perma-cache.
-* [Forget Spam Comment](https://wordpress.org/plugins/forget-spam-comment/)
-* WebP Express
-* Fluent Form, Contact Form 7
-* RankMath
+## 💕 Compatibility 💕
+- AMP (official plugin only)
+- Autoptimize (automatically purges cache on clear)
+- Bunny.net (official plugin useful for static files)
+- [Forget Spam Comment](https://wordpress.org/plugins/forget-spam-comment/)
+- WebP Express
+- Fluent Form, Contact Form 7
+- RankMath
 
-== Things completely bypassed from Caching ==
-* XML Sitemap
-* WordPress Search
-* REST API Route
-* Pagination (example.com/blog/page/n/)
+## Things Completely Bypassed from Caching
+- XML Sitemap
+- WordPress Search
+- REST API Route
+- Pagination (e.g., example.com/blog/page/n/)
 
-= Requirements =
-* bunny.net API key
-* Cloudflare DNS
+## Requirements
+- Bunny.net API key
+- Cloudflare DNS
 
-== How to use ==
+## How to Use
+1. Enter Bunny.net API key.
+2. Click on "Setup Pull Zone".
+3. Update CNAME records at Cloudflare DNS.
+4. Click on "Install SSL" button.
+5. Done! For more information, please check the 'Help' section in the plugin UI.
 
-* Enter bunny.net API
-* Click on Setup Pull Zone
-* Update CNAME records at Cloudflare DNS
-* Click on Install SSL button
-* Done.
-* For more information, please check 'Help' sections inside plugin UI.
+## Screenshots
+1. Edge Caching Setup in just two steps.
+2. Bunnyfied message shows setup completion.
+3. Restrict Access to Origin to the Authorized Zone.
+4. Enjoy faster TTFB globally.
 
-== Screenshots ==
-1. Edge Caching Setup in just two steps
-2. Bunnyfied message shows setup completed
-3. Restrict Access to Origin to the Authorized Zone
-4. Enjoy faster TTFB globally
+## Disclaimer
+- You should 'delete' Pull Zone after plugin deactivation.
+- This plugin does not collect any personal information.
+- The plugin will not be liable for any loss or misconfiguration.
+- This is an **unofficial** plugin for Bunny fans. For account and billing queries, please do not contact Bunny.net support.
 
-== Disclaimer ==
-* You should 'delete' Pull Zone self after plugin deactivation.
-* This plugin doesn't collect any personal information. 
-* In no shall events plugin will be liable for any loss or misconfiguration.
-* This is an **unofficial** plugin for bunny fans. Except for account and billing queries, please do not bother team bunny.net by asking support for this plugin instead consider using below official support channel.
+## Official Support Channels
+- Create a topic at the [WordPress Support Forum](https://wordpress.org/support/plugin/edge-caching-firewall-bunnycdn/)
+- Ask at [GulshanForum](https://help.gulshankumar.net)
+- Tweet [@TheGulshanKumar](https://twitter.com/TheGulshanKumar) 
 
-== Official Support Channels ==
+Share with your friends! Thank you. 🙂 
 
-- Create a topic at [WordPress Support Forum](https://wordpress.org/support/plugin/edge-caching-firewall-bunnycdn/)
-- Or, ask at [GulshanForum](https://help.gulshankumar.net)
-- Or, tweet [@TheGulshanKumar](https://twitter.com/TheGulshanKumar) 
+## Installation
 
-Share with your friends! Thank you. 🙂
+### From WordPress Dashboard
+1. Go to Plugins menu > Add New.
+2. Search for "Edge Caching and Firewall with BunnyCDN".
+3. Activate the plugin through the 'Plugins' menu in WordPress.
+4. Enter Bunny.net API Key and set up the plugin.
+5. Update the DNS records at Cloudflare as suggested by the plugin.
+6. Restart your browser.
 
+### Manual Installation
+1. Download the "Edge Caching and Firewall with BunnyCDN".
+2. Upload the folder to the `/wp-content/plugins/` directory.
+3. Activate the plugin through the 'Plugins' menu in WordPress.
+4. Enter Bunny.net API Key and set up the plugin.
+5. Update the DNS records at Cloudflare as suggested by the plugin.
+6. Restart your browser.
 
-== Installation ==
+## Frequently Asked Questions
 
-To install this plugin from WordPress Dashboard
+### Will it work on my site?
+Bunny offers a 14-day free trial. Why not give it a try yourself?
 
-1. Go to Plugins menu > Add new
-1. Search for Edge Caching and Firewall with BunnyCDN
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Enter bunny.net API Key and setup the plugin
-1. Update the DNS records at Cloudflare as suggested by plugin
-1. Restart the browser.
+### Why is www or subdomain optionally recommended?
+An actual CNAME can be much faster and more accurate in routing compared to ANAME or CNAME flattening. See the [case study](https://www.gulshankumar.net/using-cloudflare-dns-without-cdn-or-waf/#Should-you-use-Cloudflare-DNS). If you are on a different subdomain, that's perfectly fine. The recommended DNS is Cloudflare.
 
+### How to clean uninstall this plugin?
+1. Deactivate the plugin.
+2. Point back to the original Hosting IP in your DNS.
+3. Log in to your Bunny.net account and delete the created pull zone. Close your account.
+4. Deactivation/re-activation will drop saved info, except for the static 'Origin Access Token' hash for graceful re-installation. Optionally, you may run `delete_option( 'edge_caching_and_firewall_with_bunnycdn_origin_access_token' );` to fully clean.
 
-To install this plugin manually
+## Changelog
 
-1. Download the 'Edge Caching and Firewall with BunnyCDN'
-1. Upload `Edge Caching and Firewall with BunnyCDN` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Enter bunny.net API Key and setup the plugin
-1. Update the DNS records at Cloudflare as suggested by plugin
-1. Restart the browser.
+### 1.0.2
+- [BUG FIX] Prevent dropping settings after update.
 
-== Frequently Asked Questions ==
+### 1.0.1
+- [IMPROVEMENT] Updated instructions for certificate installations.
 
-= Will it work on my site? =
-bunny offers 14 days free trial. Why not give a try yourself?
-
-= Why www or subdomain is optionally recommended? =
-An actual CNAME can be much faster and accurate in routing compared to ANAME or CNAME Flattening . See the [case-study](https://www.gulshankumar.net/using-cloudflare-dns-without-cdn-or-waf/#Should-you-use-Cloudflare-DNS). Or, if you are on other subdomain then it's perfectly fine. The recommended DNS is Cloudflare.
-
-= How to clean uninstall this plugin? =
-1. First, Deactivate the plugin. 
-2. Point back to original Hosting IP in your DNS.
-3. Login to bunny.net account and delete created pull zone. Close account.
-3. Deactivation/re-activation will drop saved info, except the static 'Origin Access Token' hash to allow graceful re-installation. Optionally, you may run `delete_option( 'edge_caching_and_firewall_with_bunnycdn_origin_access_token' );` to fully clean.
-
-== Changelog ==
-
-= 1.0.2 =
-* [BUG FIX] Prevent droping settings after update.
-
-= 1.0.1 =
-* [IMPROVEMENT] Updated instructions for cert installations
-
-= 1.0.0 =
-* Initial release
+### 1.0.0
+- Initial release.
