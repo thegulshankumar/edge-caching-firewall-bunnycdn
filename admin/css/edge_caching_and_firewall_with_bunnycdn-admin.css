@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#edge_caching_and_firewall_with_bunnycdn_bunnycdn_api_key {
+	width: 300px;
+}
+
+table#cloudflare_dns_table {
+	margin-top: 20px;
+
+}
+
+table#cloudflare_dns_table, table#cloudflare_dns_table th, table#cloudflare_dns_table td {
+	text-align: left !important;
+	border-collapse: collapse;
+	border: 1px solid #bcbaba;
+	padding: 3px;
+}

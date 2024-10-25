@@ -1,6 +1,6 @@
 # Edge Caching and Firewall with BunnyCDN
 
-### Make your site globally faster and secure like never before!
+### Make your site globally faster and secure like never before
 
 
 **Reverse-Proxy Edge Caching & DDoS protection in 90 seconds setup.** í¸Ž
