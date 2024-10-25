@@ -1,13 +1,13 @@
 # Edge Caching and Firewall with BunnyCDN
 
-### Make your site globally faster and secure like never before
+### Make your site globally faster and secure like never before!
 
 
-**Reverse-Proxy Edge Caching & DDoS protection in 90 seconds setup.** ðŸ˜Ž
+**Reverse-Proxy Edge Caching & DDoS protection in 90 seconds setup.** í¸Ž
 
 > The use of Bunny.net API key is subject to its applicable 'Pricing', 'Terms', and 'Acceptable Usage Policy'.
 
-### ðŸŽ Your Benefits
+### í¾ Your Benefits
 - Achieve TTFB ~35ms globally with Reverse-Proxy Edge caching.
 - Hide the Origin IP to prevent DDoS attacks.
 - Prevent bypassing Bunny Proxy with Origin Access Token.
@@ -16,7 +16,7 @@
 - Easy edge caching at BunnyCDN Edge with auto-purge.
 - Cache all content at one hostname, including posts, pages, and RSS feeds with automatic URL purging.
 
-## ðŸ¥‰ Salient Features
+## íµ‰ Salient Features
 - Retain the admin toolbar while logged in (hidden for logged-out users).
 - Automated purging for optimal Cache HIT ratio.
 - Purge relevant URLs on post status changes and new comments.
@@ -27,8 +27,8 @@
 - Purge cache for a single page or the entire site via the admin toolbar.
 - GDPR compliant.
 
-## Intelligent Cookies-Session Handling ðŸ‘
-> Crafted with care. ðŸ˜Ž
+## Intelligent Cookies-Session Handling í±
+> Crafted with care. í¸Ž
 - Displays comment moderation status to the comment author.
 - Bypasses caching for logged-in users with 'Remember Me' checked.
 - Serves cached response instantly after logout.
@@ -38,7 +38,7 @@
 - **Free**: Vary Cache, to extend support for [WebP Express](https://www.gulshankumar.net/how-to-serve-webp-format-images-in-wordpress/#nginx), ShortPixel.
 - **Paid**: Optimizer ($9.5/mo), for automated CSS/JS minification and WebP.
 
-## ðŸ’• Compatibility ðŸ’•
+## í²• Compatibility í²•
 - AMP (official plugin only)
 - Autoptimize (automatically purges cache on clear)
 - Bunny.net (official plugin useful for static files)
@@ -81,7 +81,7 @@
 - Ask at [GulshanForum](https://help.gulshankumar.net)
 - Tweet [@TheGulshanKumar](https://twitter.com/TheGulshanKumar) 
 
-Share with your friends! Thank you. ðŸ™‚ 
+Share with your friends! Thank you. í¹‚ 
 
 ## Installation
 
@@ -125,3 +125,4 @@ An actual CNAME can be much faster and more accurate in routing compared to ANAM
 
 ### 1.0.0
 - Initial release.
+
