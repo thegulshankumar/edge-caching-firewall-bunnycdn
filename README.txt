@@ -1,20 +1,7 @@
 # Edge Caching and Firewall with BunnyCDN
-
-**Contributors**: thegulshankumar  
-**Donate link**: [Buy Me A Coffee](https://www.buymeacoffee.com/gulshan)  
-**Tags**: performance, pagespeed, optimization, security, caching, ddos, cache, reverse-proxy  
-**Requires at least**: 4.5  
-**Requires PHP**: 7.2  
-**Tested up to**: 5.7  
-**Stable tag**: 1.0.2  
-**License**: GPLv3  
-**License URI**: [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.txt)
-
 ---
+### Make your site globally faster and secure like never before
 
-### Make your site globally faster and secure like never before.
-
-## Description
 
 **Reverse-Proxy Edge Caching & DDoS protection in 90 seconds setup.** 😎
 
