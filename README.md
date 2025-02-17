@@ -73,7 +73,7 @@
 - You should 'delete' Pull Zone after plugin deactivation.
 - This plugin does not collect any personal information.
 - The plugin will not be liable for any loss or misconfiguration.
-- This is an **unofficial** plugin for Bunny fans. For account and billing queries, please do not contact Bunny.net support.
+- This is an **unofficial** plugin for Bunny fans. For account and billing queries, please do contact Bunny.net support.
 
 ## Installation
 
